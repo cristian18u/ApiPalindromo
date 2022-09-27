@@ -3,8 +3,10 @@ Api rest usando el framework Spring boot implementando seguridad con JWT y datab
 
 ## Ejecutar aplicacion
 
-correr en la terminal 
+correr en la terminal
+
 mvn spring-boot:run
+
 (Estando parado en la carpeta principal del proyecto).
 
 ## Ejecutar con Docker
