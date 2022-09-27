@@ -1,0 +1,6 @@
+GET http://localhost:8080/usuario HTTP/1.1
+
+###
+GET http://localhost:8080/v3/api-docs/
+###
+GET http://localhost:8080/api/usuario

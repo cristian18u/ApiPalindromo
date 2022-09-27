@@ -1,0 +1,7 @@
+POST http://localhost:8080/palindromo HTTP/1.1
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJyYXVsN0BnbWFpbC5jb20iLCJpYXQiOjE2NjQxNzA0NTUsImV4cCI6MTY2NDc3NTI1NX0.xf4thxldTsh6ZsHz8n2ljJYuAFpMAC2Qna-grcCKJigZH9nY_F2bxma3i7-8ZIAtxSB_ofZLmEBX69bOuqpS1A
+
+{
+    "cadena": "Anita lava la tina"
+}

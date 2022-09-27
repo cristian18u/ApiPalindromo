@@ -1,0 +1,11 @@
+POST http://localhost:8080/api/auth/registrar HTTP/1.1
+content-type: application/json
+# Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJyYXVsMTh1QGdtYWlsLmNvbSIsImlhdCI6MTY2NDA3NjY5MiwiZXhwIjoxNjY0NjgxNDkyfQ.7EuhLyFCPytdz0QSI5IbgbqMnTcOx72B1aJ-iPMsl77GTz7XimtSpJebjaf-Lh_-s3CNG1TueEPiWJc3VvxDOQ
+
+{
+    "nombre": "raul5",
+    "username": "raul185",
+    "email": "raul7@gmail.com5",
+    "password": "raul25"
+}
+
