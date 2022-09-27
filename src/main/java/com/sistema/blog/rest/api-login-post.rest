@@ -5,3 +5,12 @@ content-type: application/json
     "usernameOrEmail": "raul185",
     "password": "raul25"
 }
+
+###
+POST https://apirest-service.herokuapp.com/api/auth/iniciarSesion HTTP/1.1
+content-type: application/json
+
+{
+    "usernameOrEmail": "raul185",
+    "password": "raul25"
+}

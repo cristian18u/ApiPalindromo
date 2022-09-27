@@ -13,7 +13,7 @@ import io.swagger.v3.oas.annotations.servers.Server;
 
 @SpringBootApplication
 @OpenAPIDefinition(info = @Info(title = "Todoitems API", version = "1.0.0"), servers = {
-		@Server(url = "http://localhost:8080")
+		@Server(url = "https://apirest-service.herokuapp.com"), @Server(url = "http://localhost:8080")
 })
 
 @SecurityScheme(name = "BearerJWT", type = SecuritySchemeType.HTTP, bearerFormat = "JWT", scheme = "bearer", description = "Bearer token for the project")
